@@ -1,0 +1,21 @@
+{
+  "name": "twm-zks",
+  "version": "1.0.0",
+  "description": "监控钱包在 zks 上的活动",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.61.0",
+    "puppeteer": "^19.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
